@@ -9,5 +9,5 @@ def display_rainbow(colors)
   colors.each do |color|
     new_arr.push("#{color[0][0].upcase}: #{color}")
   end 
-  puts new_arr.join(",")
+  puts new_arr.join(" ,")
 end 
