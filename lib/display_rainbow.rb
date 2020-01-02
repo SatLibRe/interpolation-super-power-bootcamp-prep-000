@@ -5,7 +5,9 @@
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
 def display_rainbow(colors)
-  colors.map do |color|
-    "#{color[0][0].upcase}: #{color}"
+  new_arr = []
+  colors.each do |color|
+    new_arr.push("#{color[0][0].upcase}: #{color}")
   end 
+  new_arr.join(",")
 end 
